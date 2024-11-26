@@ -50,12 +50,12 @@ async def init():
         pass
     await Hotty.decorators()
     LOGGER("FrozenXMusic").info(
-        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @Frozensupport1 ᴊᴏɪɴ @vibeshiftbots , @Frozensupport1"
+        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @RU_DRA_098 ᴊᴏɪɴ @Deathmusic_bot , @RU_DRA_098"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("FrozenXMusic").info("Stopping Frozen Music Bot...")
+    LOGGER("FrozenXMusic").info("Stopping Rudra Music Bot...")
 
 
 if __name__ == "__main__":
