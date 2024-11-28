@@ -42,20 +42,20 @@ async def init():
     try:
         await Hotty.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
     except NoActiveGroupCall:
-        LOGGER("FrozenXMusic").error(
+        LOGGER("RockyXMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Hotty.decorators()
-    LOGGER("FrozenXMusic").info(
+    LOGGER("RockyXMusic").info(
         "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @RU_DRA_098 ᴊᴏɪɴ @Deathmusic_bot , @RU_DRA_098"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("FrozenXMusic").info("Stopping Rudra Music Bot...")
+    LOGGER("RockyXMusic").info("Stopping Rudra Music Bot...")
 
 
 if __name__ == "__main__":
