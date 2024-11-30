@@ -1,8 +1,8 @@
 from enum import Enum, auto
-from BrandrdXMusic import app
+from kaalXMusic import app
 from pyrogram.types import InlineKeyboardMarkup, Message
-from BrandrdXMusic.utils.msg_types import button_markdown_parser
-from BrandrdXMusic.utils.notes_func import NoteFillings
+from kaalXMusic.utils.msg_types import button_markdown_parser
+from kaalXMusic.utils.notes_func import NoteFillings
 from emojis import decode
 from pyrogram.types import Message
 
