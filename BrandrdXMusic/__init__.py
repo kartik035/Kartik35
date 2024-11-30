@@ -1,8 +1,8 @@
-from BrandrdXMusic.core.bot import Hotty
-from BrandrdXMusic.core.dir import dirr
-from BrandrdXMusic.core.git import git
-from BrandrdXMusic.core.userbot import Userbot
-from BrandrdXMusic.misc import dbb, heroku
+from kaalXMusic.core.bot import Hotty
+from kaalXMusic.core.dir import dirr
+from kaalXMusic.core.git import git
+from kaalXMusic.core.userbot import Userbot
+from kaalXMusic.misc import dbb, heroku
 
 from SafoneAPI import SafoneAPI
 from .logging import LOGGER
@@ -27,4 +27,4 @@ Resso = RessoAPI()
 Telegram = TeleAPI()
 YouTube = YouTubeAPI()
 
-APP = "BRANDED_KUDI_BOT"  # connect music api key "Dont change it"
+APP = "@KAAL_MUSIC_35_BOT"  # connect music api key "Dont change it"
