@@ -5,11 +5,11 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from BrandrdXMusic import LOGGER, app, userbot
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import sudo
-from BrandrdXMusic.plugins import ALL_MODULES
-from BrandrdXMusic.utils.database import get_banned_users, get_gbanned
+from kaalXMusic import LOGGER, app, userbot
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import sudo
+from kaalXMusic.plugins import ALL_MODULES
+from kaalXMusic.utils.database import get_banned_users, get_gbanned
 from config import BANNED_USERS
 
 
@@ -35,27 +35,27 @@ async def init():
         pass
     await app.start()
     for all_module in ALL_MODULES:
-        importlib.import_module("BrandrdXMusic.plugins" + all_module)
-    LOGGER("BrandrdXMusic.plugins").info("Successfully Imported Modules...")
+        importlib.import_module("kaalXMusic.plugins" + all_module)
+    LOGGER("kaalXMusic.plugins").info("Successfully Imported Modules...")
     await userbot.start()
     await Hotty.start()
     try:
         await Hotty.stream_call("https://graph.org/file/e999c40cb700e7c684b75.mp4")
     except NoActiveGroupCall:
-        LOGGER("RockyXMusic").error(
+        LOGGER("kaalXMusic").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
         )
         exit()
     except:
         pass
     await Hotty.decorators()
-    LOGGER("RockyXMusic").info(
-        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @RU_DRA_098 ᴊᴏɪɴ @Deathmusic_bot , @RU_DRA_098"
+    LOGGER("kaalXMusic").info(
+        "ᴅʀᴏᴘ ʏᴏᴜʀ ɢɪʀʟꜰʀɪᴇɴᴅ'ꜱ ɴᴜᴍʙᴇʀ ᴀᴛ @kaal_35 ᴊᴏɪɴ @KAAL_MUSIC_35_BOT , @kaal_35"
     )
     await idle()
     await app.stop()
     await userbot.stop()
-    LOGGER("RockyXMusic").info("Stopping Rudra Music Bot...")
+    LOGGER("kaalXMusic").info("Stopping kaal Music Bot...")
 
 
 if __name__ == "__main__":
