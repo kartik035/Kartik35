@@ -4,7 +4,7 @@ from re import findall
 from bing_image_downloader import downloader
 from pyrogram import Client, filters
 from pyrogram.types import InputMediaPhoto, Message
-from BrandrdXMusic import app
+from kaalXMusic import app
 
 @app.on_message(filters.command(["imgs", "image"], prefixes=["/", "!"]))
 async def google_img_search(client: Client, message: Message):
@@ -33,12 +33,12 @@ async def google_img_search(client: Client, message: Message):
     except Exception as e:
         return await message.reply(f"Error in downloading images: {e}")
 
-    msg = await message.reply("Frozen Scrapping images...")
+    msg = await message.reply("kaal Scrapping images...")
 
     count = 0
     for img in lst:
         count += 1
-        await msg.edit(f"=> Frozen owo scrapped images {count}")
+        await msg.edit(f"=> kaal owo scrapped images {count}")
 
     try:
         await app.send_media_group(
