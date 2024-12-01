@@ -9,7 +9,7 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 from BrandrdXMusic.utils.database import get_assistant
 import config
-from BrandrdXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from kaalXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
 from BrandrdXMusic.core.call import Hotty
 from BrandrdXMusic.misc import SUDOERS
 from BrandrdXMusic.utils import seconds_to_min, time_to_seconds
