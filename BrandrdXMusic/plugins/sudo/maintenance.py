@@ -1,9 +1,9 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
+from kaalXMusic import app
 from config import OWNER_ID
-from BrandrdXMusic.utils.database import (
+from kaalXMusic.utils.database import (
     get_lang,
     is_maintenance,
     maintenance_off,
