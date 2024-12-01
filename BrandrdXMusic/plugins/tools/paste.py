@@ -8,9 +8,9 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton
 
 from aiohttp import ClientSession
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.errors import capture_err
-from BrandrdXMusic.utils.pastebin import HottyBin
+from kaalXMusic import app
+from kaalXMusic.utils.errors import capture_err
+from kaalXMusic.utils.pastebin import HottyBin
 
 pattern = re.compile(r"^text/|json$|yaml$|xml$|toml$|x-sh$|x-shellscript$")
 
