@@ -9,13 +9,13 @@ from pyrogram.types import InputMediaPhoto, Message
 from pytgcalls.__version__ import __version__ as pytgver
 
 import config
-from BrandrdXMusic import app
-from BrandrdXMusic.core.userbot import assistants
-from BrandrdXMusic.misc import SUDOERS, mongodb
-from BrandrdXMusic.plugins import ALL_MODULES
-from BrandrdXMusic.utils.database import get_served_chats, get_served_users, get_sudoers, get_queries
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
+from kaalXMusic import app
+from kaalXMusic.core.userbot import assistants
+from kaalXMusic.misc import SUDOERS, mongodb
+from kaalXMusic.plugins import ALL_MODULES
+from kaalXMusic.utils.database import get_served_chats, get_served_users, get_sudoers, get_queries
+from kaalXMusic.utils.decorators.language import language, languageCB
+from kaalXMusic.utils.inline.stats import back_stats_buttons, stats_buttons
 from config import BANNED_USERS
 
 
