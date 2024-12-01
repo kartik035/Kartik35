@@ -8,14 +8,14 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 from pyrogram.enums import *
 
 #BOT FILE NAME
-from BrandrdXMusic import app as app
-from BrandrdXMusic.mongo.couples_db import _get_image, get_couple
+from kaalXMusic import app as app
+from kaalXMusic.mongo.couples_db import _get_image, get_couple
 
 POLICE = [
     [
         InlineKeyboardButton(
             text="ᴍʏ ᴄᴜᴛᴇ ᴅᴇᴠᴇʟᴏᴘᴇʀ  🥀",
-            url=f"https://t.me/RU_DRA_65",
+            url=f"https://t.me/Kaal_56",
         ),
     ],
 ]
@@ -76,12 +76,12 @@ async def ctest(_, message):
          try:
             p2 = await app.download_media(photo2.big_file_id, file_name="pfp1.png")
          except Exception:
-            p2 = "BrandrdXMusic/assets/upic.png"
+            p2 = "kaalXMusic/assets/upic.png"
             
          img1 = Image.open(f"{p1}")
          img2 = Image.open(f"{p2}")
 
-         img = Image.open("BrandrdXMusic/assets/cppicbranded.jpg")
+         img = Image.open("kaalXMusic/assets/cppicbranded.jpg")
 
          img1 = img1.resize((437,437))
          img2 = img2.resize((437,437))
