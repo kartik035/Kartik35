@@ -3,9 +3,9 @@ import asyncio
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.mongo.afkdb import LOGGERS as OWNERS
-from BrandrdXMusic.utils.database import add_served_chat, get_assistant
+from kaalXMusic import app
+from kaalXMusic.mongo.afkdb import LOGGERS as OWNERS
+from kaalXMusic.utils.database import add_served_chat, get_assistant
 
 
 @app.on_message(filters.command("repo"))
@@ -17,7 +17,7 @@ async def help(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://t.me/RU_DRA_098"
+                        "ƨσʋяcɛ", url=f"https://t.me/kaal_35"
                     )
                 ]
             ]
@@ -34,7 +34,7 @@ async def clones(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "ƨσʋяcɛ", url=f"https://t.me/RU_DRA_098"
+                        "ƨσʋяcɛ", url=f"https://t.me/kaal_support"
                     )
                 ]
             ]
