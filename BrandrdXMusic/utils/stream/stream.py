@@ -7,24 +7,24 @@ import asyncio
 from pyrogram import client, filters
 from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
-from BrandrdXMusic.utils.database import get_assistant
+from kaalXMusic.utils.database import get_assistant
 import config
 from kaalXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils import seconds_to_min, time_to_seconds
-from BrandrdXMusic.utils.channelplay import get_channeplayCB
-from BrandrdXMusic.utils.decorators.language import languageCB
-from BrandrdXMusic.utils.decorators.play import PlayWrapper
-from BrandrdXMusic.utils.formatters import formats
-from BrandrdXMusic.utils.inline import (
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import SUDOERS
+from kaalXMusic.utils import seconds_to_min, time_to_seconds
+from kaalXMusic.utils.channelplay import get_channeplayCB
+from kaalXMusic.utils.decorators.language import languageCB
+from kaalXMusic.utils.decorators.play import PlayWrapper
+from kaalXMusic.utils.formatters import formats
+from kaalXMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from BrandrdXMusic.utils.database import (
+from kaalXMusic.utils.database import (
     add_served_chat,
     add_served_user,
     blacklisted_chats,
@@ -32,7 +32,7 @@ from BrandrdXMusic.utils.database import (
     is_banned_user,
     is_on_off,
 )
-from BrandrdXMusic.utils.logger import play_logs
+from kaalXMusic.utils.logger import play_logs
 from config import BANNED_USERS, lyrical
 from time import time
 from BrandrdXMusic.utils.extraction import extract_user
@@ -48,12 +48,12 @@ SPAM_WINDOW_SECONDS = 5
 from pyrogram.types import InlineKeyboardMarkup
 
 import config
-from BrandrdXMusic import Carbon, YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils.database import add_active_video_chat, is_active_chat
-from BrandrdXMusic.utils.exceptions import AssistantErr
-from BrandrdXMusic.utils.inline import (
+from kaalXMusic import Carbon, YouTube, app
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import db
+from kaalXMusic.utils.database import add_active_video_chat, is_active_chat
+from kaalXMusic.utils.exceptions import AssistantErr
+from kaalXMusic.utils.inline import (
     aq_markup,
     queuemarkup,
     close_markup,
@@ -61,8 +61,8 @@ from BrandrdXMusic.utils.inline import (
     stream_markup2,
     panel_markup_4,
 )
-from BrandrdXMusic.utils.pastebin import HottyBin
-from BrandrdXMusic.utils.stream.queue import put_queue, put_queue_index
+from kaalXMusic.utils.pastebin import HottyBin
+from kaalXMusic.utils.stream.queue import put_queue, put_queue_index
 from youtubesearchpython.__future__ import VideosSearch
 
 
