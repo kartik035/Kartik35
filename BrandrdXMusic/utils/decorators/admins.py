@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import SUDOERS, db
-from BrandrdXMusic.utils.database import (
+from kaalXMusic import app
+from kaalXMusic.misc import SUDOERS, db
+from kaalXMusic.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
