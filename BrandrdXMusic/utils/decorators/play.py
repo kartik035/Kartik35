@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils.database import (
+from kaalXMusic import YouTube, app
+from kaalXMusic.misc import SUDOERS
+from kaalXMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from BrandrdXMusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from BrandrdXMusic.utils.inline import botplaylist_markup
+from kaalXMusic.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
