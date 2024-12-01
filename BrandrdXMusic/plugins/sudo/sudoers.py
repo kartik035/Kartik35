@@ -1,12 +1,12 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils.database import add_sudo, remove_sudo
-from BrandrdXMusic.utils.decorators.language import language
-from BrandrdXMusic.utils.extraction import extract_user
-from BrandrdXMusic.utils.inline import close_markup
+from kaalXMusic import app
+from kaalXMusic.misc import SUDOERS
+from kaalXMusic.utils.database import add_sudo, remove_sudo
+from kaalXMusic.utils.decorators.language import language
+from kaalXMusic.utils.extraction import extract_user
+from kaalXMusic.utils.inline import close_markup
 from config import BANNED_USERS, OWNER_ID
 
 
@@ -48,7 +48,7 @@ async def userdel(client, message: Message, _):
 @language
 async def sudoers_list(client, message: Message, _):
     if message.from_user.id not in SUDOERS:
-        return await message.reply_text("💔 <b>ᴏᴡɴᴇʀs:</b>\n1➤ <a href='https://t.me/RU_DRA_65'>🇮🇳⛦°Rudra 𓆩🇽𓆪 🇳</a>",
+        return await message.reply_text("💔 <b>ᴏᴡɴᴇʀs:</b>\n1➤ <a href='https://t.me/Kaal_56'>🇮🇳⛦°kaal 𓆩🇽𓆪 🇳</a>",
         disable_web_page_preview=True,
         parse_mode="html")
     text = _["sudo_5"]
