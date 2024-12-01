@@ -5,12 +5,12 @@ from pyrogram import filters
 from pyrogram.enums import ChatMembersFilter
 from pyrogram.types import CallbackQuery, Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils.database import get_assistant, get_authuser_names, get_cmode
-from BrandrdXMusic.utils.decorators import ActualAdminCB, AdminActual, language
-from BrandrdXMusic.utils.formatters import alpha_to_int, get_readable_time
+from kaalXMusic import app
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import db
+from kaalXMusic.utils.database import get_assistant, get_authuser_names, get_cmode
+from kaalXMusic.utils.decorators import ActualAdminCB, AdminActual, language
+from kaalXMusic.utils.formatters import alpha_to_int, get_readable_time
 from config import BANNED_USERS, adminlist, lyrical
 
 rel = {}
