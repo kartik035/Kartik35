@@ -12,17 +12,17 @@ from pyrogram.types import Message
 
 from config import BANNED_USERS, adminlist
 from strings import get_string
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils.database import (
+from kaalXMusic import app
+from kaalXMusic.misc import SUDOERS
+from kaalXMusic.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
     get_playmode,
     get_playtype,
 )
-from BrandrdXMusic.utils.logger import play_logs
-from BrandrdXMusic.utils.stream.stream import stream
+from kaalXMusic.utils.logger import play_logs
+from kaalXMusic.utils.stream.stream import stream
 
 RADIO_STATION = {
     "Air Bilaspur": "http://air.pc.cdn.bitgravity.com/air/live/pbaudio110/playlist.m3u8",
@@ -178,5 +178,5 @@ async def radio(client, message: Message):
         )
 
 
-__MODULE__ = "Rᴀᴅɪᴏ"
+__MODULE__ = "Kᴀᴅɪᴏ"
 __HELP__ = f"\n/radio [sᴛᴀᴛɪᴏɴ ɴᴀᴍᴇ] - ᴛᴏ ᴘʟᴀʏ **ʀᴀᴅɪᴏ ɪɴ ᴠᴏɪᴄᴇ ᴄʜᴀᴛ**\n\nʙᴇʟᴏᴡ ᴀʀᴇ sᴏᴍᴇ sᴛᴀᴛɪᴏɴ ɴᴀᴍᴇ:\n{valid_stations}"
