@@ -4,10 +4,10 @@ from pyrogram import filters
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import SUDOERS
-from BrandrdXMusic.utils import get_readable_time
-from BrandrdXMusic.utils.database import (
+from kaalXMusic import app
+from kaalXMusic.misc import SUDOERS
+from kaalXMusic.utils import get_readable_time
+from kaalXMusic.utils.database import (
     add_banned_user,
     get_banned_count,
     get_banned_users,
@@ -15,8 +15,8 @@ from BrandrdXMusic.utils.database import (
     is_banned_user,
     remove_banned_user,
 )
-from BrandrdXMusic.utils.decorators.language import language
-from BrandrdXMusic.utils.extraction import extract_user
+from kaalXMusic.utils.decorators.language import language
+from kaalXMusic.utils.extraction import extract_user
 from config import BANNED_USERS
 
 
