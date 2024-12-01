@@ -6,12 +6,12 @@ from pyrogram.errors import FloodWait
 from pyrogram.types import CallbackQuery, InputMediaPhoto, Message
 
 import config
-from BrandrdXMusic import app
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils import HottyBin, get_channeplayCB, seconds_to_min
-from BrandrdXMusic.utils.database import get_cmode, is_active_chat, is_music_playing
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.inline import queue_back_markup, queue_markup
+from kaalXMusic import app
+from kaalXMusic.misc import db
+from kaalXMusic.utils import HottyBin, get_channeplayCB, seconds_to_min
+from kaalXMusic.utils.database import get_cmode, is_active_chat, is_music_playing
+from kaalXMusic.utils.decorators.language import language, languageCB
+from kaalXMusic.utils.inline import queue_back_markup, queue_markup
 from config import BANNED_USERS
 
 basic = {}
