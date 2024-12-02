@@ -10,8 +10,8 @@ from pyrogram.types import (
     InputMediaVideo,
 )
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.database import (
+from kaalXMusic import app
+from kaalXMusic.utils.database import (
     add_nonadmin_chat,
     get_authuser,
     get_authuser_names,
