@@ -4,9 +4,9 @@ from datetime import datetime
 from pyrogram.enums import ChatType
 
 import config
-from BrandrdXMusic import app
-from BrandrdXMusic.core.call import Hotty, autoend
-from BrandrdXMusic.utils.database import get_client, is_active_chat, is_autoend
+from kaalXMusic import app
+from kaalXMusic.core.call import Hotty, autoend
+from kaalXMusic.utils.database import get_client, is_active_chat, is_autoend
 
 
 async def auto_leave():
