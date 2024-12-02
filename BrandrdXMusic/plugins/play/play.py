@@ -6,22 +6,22 @@ from pyrogram.types import InlineKeyboardMarkup, InputMediaPhoto, Message
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-from BrandrdXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.utils import seconds_to_min, time_to_seconds
-from BrandrdXMusic.utils.channelplay import get_channeplayCB
-from BrandrdXMusic.utils.decorators.language import languageCB
-from BrandrdXMusic.utils.decorators.play import PlayWrapper
-from BrandrdXMusic.utils.formatters import formats
-from BrandrdXMusic.utils.inline import (
+from kaalXMusic import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.utils import seconds_to_min, time_to_seconds
+from kaalXMusic.utils.channelplay import get_channeplayCB
+from kaalXMusic.utils.decorators.language import languageCB
+from kaalXMusic.utils.decorators.play import PlayWrapper
+from kaalXMusic.utils.formatters import formats
+from kaalXMusic.utils.inline import (
     botplaylist_markup,
     livestream_markup,
     playlist_markup,
     slider_markup,
     track_markup,
 )
-from BrandrdXMusic.utils.logger import play_logs
-from BrandrdXMusic.utils.stream.stream import stream
+from kaalXMusic.utils.logger import play_logs
+from kaalXMusic.utils.stream.stream import stream
 from config import BANNED_USERS, lyrical
 
 
