@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.utils.database import get_loop, set_loop
-from BrandrdXMusic.utils.decorators import AdminRightsCheck
-from BrandrdXMusic.utils.inline import close_markup
+from kaalXMusic import app
+from kaalXMusic.utils.database import get_loop, set_loop
+from kaalXMusic.utils.decorators import AdminRightsCheck
+from kaalXMusic.utils.inline import close_markup
 from config import BANNED_USERS
 
 
