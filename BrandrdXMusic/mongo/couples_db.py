@@ -1,4 +1,4 @@
-from BrandrdXMusic.utils.mongo import db
+from kaalXMusic.utils.mongo import db
 
 coupledb = db.couple
 
