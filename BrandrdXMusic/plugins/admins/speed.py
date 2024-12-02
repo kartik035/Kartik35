@@ -1,13 +1,13 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from BrandrdXMusic import app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import SUDOERS, db
-from BrandrdXMusic.utils import AdminRightsCheck
-from BrandrdXMusic.utils.database import is_active_chat, is_nonadmin_chat
-from BrandrdXMusic.utils.decorators.language import languageCB
-from BrandrdXMusic.utils.inline import close_markup, speed_markup
+from kaalXMusic import app
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import SUDOERS, db
+from kaalXMusic.utils import AdminRightsCheck
+from kaalXMusic.utils.database import is_active_chat, is_nonadmin_chat
+from kaalXMusic.utils.decorators.language import languageCB
+from kaalXMusic.utils.inline import close_markup, speed_markup
 from config import BANNED_USERS, adminlist
 
 checker = []
