@@ -3,10 +3,10 @@ import asyncio
 from pyrogram import filters
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import SUDOERS, db
-from BrandrdXMusic.utils.database import (
+from kaalXMusic import YouTube, app
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import SUDOERS, db
+from kaalXMusic.utils.database import (
     get_active_chats,
     get_lang,
     get_upvote_count,
@@ -17,17 +17,17 @@ from BrandrdXMusic.utils.database import (
     music_on,
     set_loop,
 )
-from BrandrdXMusic.utils.decorators.language import languageCB
-from BrandrdXMusic.utils.formatters import seconds_to_min
-from BrandrdXMusic.utils.inline import (
+from kaalXMusic.utils.decorators.language import languageCB
+from kaalXMusic.utils.formatters import seconds_to_min
+from kaalXMusic.utils.inline import (
     close_markup,
     stream_markup,
     stream_markup2, 
     stream_markup_timer,
     stream_markup_timer2,
 )
-from BrandrdXMusic.utils.stream.autoclear import auto_clean
-from BrandrdXMusic.utils.thumbnails import get_thumb
+from kaalXMusic.utils.stream.autoclear import auto_clean
+from kaalXMusic.utils.thumbnails import get_thumb
 from config import (
     BANNED_USERS,
     SOUNCLOUD_IMG_URL,
