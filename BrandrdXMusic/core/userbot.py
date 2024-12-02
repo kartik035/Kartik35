@@ -24,7 +24,7 @@ assistantids = []
 class Userbot(Client):
     def __init__(self):
         self.one = Client(
-            name="BrandrdXMusic1",
+            name="kaaldXMusic1",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING1),
@@ -33,7 +33,7 @@ class Userbot(Client):
         )
             
         self.two = Client(
-            name="BrandrdXMusic2",
+            name="kaalXMusic2",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING2),
@@ -41,7 +41,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.three = Client(
-            name="BrandrdXMusic3",
+            name="kaalXMusic3",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING3),
@@ -49,7 +49,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.four = Client(
-            name="BrandrdXMusic4",
+            name="kaalXMusic4",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING4),
@@ -57,7 +57,7 @@ class Userbot(Client):
             ipv6=False,
         )
         self.five = Client(
-            name="BrandrdXMusic5",
+            name="kaalXMusic5",
             api_id=config.API_ID,
             api_hash=config.API_HASH,
             session_string=str(config.STRING5),
@@ -71,10 +71,10 @@ class Userbot(Client):
         if config.STRING1:
             await self.one.start()
             try:
-                await self.one.join_chat("Frozensupport1")
-                await self.one.join_chat("vibeshiftbots")
-                await self.one.join_chat("Frozensupport1")
-                await self.one.join_chat("vibeshiftbots")
+                await self.one.join_chat("@kaal_support")
+                await self.one.join_chat("@kaal_35")
+                await self.one.join_chat("@kaal_support")
+                await self.one.join_chat("@kaal_support")
 
             except:
                 pass
@@ -101,10 +101,10 @@ class Userbot(Client):
         if config.STRING2:
             await self.two.start()
             try:
-                await self.two.join_chat("BRANDED_WORLD")
-                await self.two.join_chat("BRANDED_PAID_CC")
-                await self.two.join_chat("BRANDRD_BOT")
-                await self.two.join_chat("ABOUT_BRANDEDKING")
+                await self.two.join_chat("@kaal_35")
+                await self.two.join_chat("@kaal_support")
+                await self.two.join_chat("@Kaal_56")
+                await self.two.join_chat("@Kaal_56")
             except:
                 pass
             assistants.append(2)
@@ -125,10 +125,10 @@ class Userbot(Client):
         if config.STRING3:
             await self.three.start()
             try:
-                await self.three.join_chat("BRANDED_WORLD")
-                await self.three.join_chat("BRANDED_PAID_CC")
-                await self.three.join_chat("BRANDRD_BOT")
-                await self.three.join_chat("ABOUT_BRANDEDKING")
+                await self.three.join_chat("@kaal_35")
+                await self.three.join_chat("@kaal_support")
+                await self.three.join_chat("@Kaal_56")
+                await self.three.join_chat("@Kaal_56")
             except:
                 pass
             assistants.append(3)
@@ -148,10 +148,10 @@ class Userbot(Client):
         if config.STRING4:
             await self.four.start()
             try:
-                await self.four.join_chat("BRANDED_WORLD")
-                await self.four.join_chat("BRANDED_PAID_CC")
-                await self.four.join_chat("BRANDRD_BOT")
-                await self.four.join_chat("ABOUT_BRANDEDKING")
+                await self.four.join_chat("@kaal_35")
+                await self.four.join_chat("@kaal_support")
+                await self.four.join_chat("@Kaal_56")
+                await self.four.join_chat("@Kaal_56")
             except:
                 pass
             assistants.append(4)
@@ -171,10 +171,10 @@ class Userbot(Client):
         if config.STRING5:
             await self.five.start()
             try:
-                await self.five.join_chat("BRANDED_WORLD")
-                await self.five.join_chat("BRANDED_PAID_CC")
-                await self.five.join_chat("BRANDRD_BOT")
-                await self.five.join_chat("ABOUT_BRANDEDKING")
+                await self.five.join_chat("@kaal_35")
+                await self.five.join_chat("@kaal_support")
+                await self.five.join_chat("@Kaal_56")
+                await self.five.join_chat("@Kaal_56")
             except:
                 pass
             assistants.append(5)
