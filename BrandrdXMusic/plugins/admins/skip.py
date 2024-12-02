@@ -2,11 +2,11 @@ from pyrogram import filters
 from pyrogram.types import InlineKeyboardMarkup, Message
 
 import config
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.core.call import Hotty
-from BrandrdXMusic.misc import db
-from BrandrdXMusic.utils.database import get_loop
-from BrandrdXMusic.utils.decorators import AdminRightsCheck
+from kaalXMusic import YouTube, app
+from kaalXMusic.core.call import Hotty
+from kaalXMusic.misc import db
+from kaalXMusic.utils.database import get_loop
+from kaalXMusic.utils.decorators import AdminRightsCheck
 from BrandrdXMusic.utils.inline import close_markup, stream_markup, stream_markup2
 from BrandrdXMusic.utils.stream.autoclear import auto_clean
 from BrandrdXMusic.utils.thumbnails import get_thumb
