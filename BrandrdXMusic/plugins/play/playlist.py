@@ -12,15 +12,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 from youtube_search import YoutubeSearch
 
 from config import BANNED_USERS, SERVER_PLAYLIST_LIMIT
-from BrandrdXMusic import Carbon, app
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.inline.playlist import (
+from kaalXMusic import Carbon, app
+from kaalXMusic.utils.decorators.language import language, languageCB
+from kaalXMusic.utils.inline.playlist import (
     botplaylist_markup,
     get_playlist_markup,
     warning_markup,
 )
-from BrandrdXMusic.utils.pastebin import HottyBin
-from BrandrdXMusic.utils.stream.stream import stream
+from kaalXMusic.utils.pastebin import HottyBin
+from kaalXMusic.utils.stream.stream import stream
 
 # Define a dictionary to track the last message timestamp for each user
 user_last_message_time = {}
@@ -28,7 +28,7 @@ user_command_count = {}
 # Define the threshold for command spamming (e.g., 20 commands within 60 seconds)
 SPAM_THRESHOLD = 2
 SPAM_WINDOW_SECONDS = 5
-from BrandrdXMusic.core.mongo import mongodb
+from kaalXMusic.core.mongo import mongodb
 
 playlistdb = mongodb.playlist
 playlist = []
@@ -478,7 +478,7 @@ async def add_playlist(client, message: Message, _):
         except Exception as e:
             return await message.reply_text(str(e))
     else:
-        from BrandrdXMusic import YouTube
+        from kaalXMusic import YouTube
 
         # Add a specific song by name
         query = " ".join(message.command[1:])
@@ -667,7 +667,7 @@ async def add_playlists(client, CallbackQuery, _):
     callback_data = CallbackQuery.data.strip()
     videoid = callback_data.split(None, 1)[1]
     user_id = CallbackQuery.from_user.id
-    from BrandrdXMusic import YouTube
+    from kaalXMusic import YouTube
 
     _check = await get_playlist(user_id, videoid)
     if _check:
