@@ -16,10 +16,10 @@ from config import (
     SONG_DOWNLOAD_DURATION,
     SONG_DOWNLOAD_DURATION_LIMIT,
 )
-from BrandrdXMusic import YouTube, app
-from BrandrdXMusic.utils.decorators.language import language, languageCB
-from BrandrdXMusic.utils.formatters import convert_bytes
-from BrandrdXMusic.utils.inline.song import song_markup
+from kaalXMusic import YouTube, app
+from kaalXMusic.utils.decorators.language import language, languageCB
+from kaalXMusic.utils.formatters import convert_bytes
+from kaalXMusic.utils.inline.song import song_markup
 
 # Song Module
 
