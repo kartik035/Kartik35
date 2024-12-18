@@ -29,7 +29,7 @@ async def help(client: Client, message: Message):
 async def clones(client: Client, message: Message):
     await message.reply_photo(
         photo=f"https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg",
-        caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner @FroZzeN_xD For Clone.**""",
+        caption=f"""**🙂You Are Not Sudo User So You Are Not Allowed To Clone Me.**\n**😌Click Given Below Button And Host Manually Otherwise Contact Owner @Mr_kartik_g For Clone.**""",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
@@ -68,7 +68,7 @@ async def add_allbot(client, message):
     command_parts = message.text.split(" ")
     if len(command_parts) != 2:
         await message.reply(
-            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @vcmusicro_bot`**"
+            "**⚠️ ɪɴᴠᴀʟɪᴅ ᴄᴏᴍᴍᴀɴᴅ ғᴏʀᴍᴀᴛ. ᴘʟᴇᴀsᴇ ᴜsᴇ ʟɪᴋᴇ » `/gadd @Music_yaa_bot`**"
         )
         return
 
