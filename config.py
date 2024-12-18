@@ -24,7 +24,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 900))
 # Chat id of a group for logging bot's activities
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
-# Get this value from @BRANDRD_ROBOT on Telegram by /id
+# Get this value from @Music_yaa_bot on Telegram by /id
 OWNER_ID = int(getenv("OWNER_ID", "7875650103"))
 
 ## Fill these variables if you're deploying on heroku.
@@ -89,21 +89,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/files.catbox.moe/zy1ylc.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/kixc5b.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+    "PING_IMG_URL", "https://files.catbox.moe/kixc5b.jpg"
 )
-PLAYLIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-STATS_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-STREAM_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/f0e790de4d84d5b4dab72-bc4dcadff42362281c.jpg"
+PLAYLIST_IMG_URL = "https://files.catbox.moe/kixc5b.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/nhjpfi.jpg"
+TELEGRAM_AUDIO_URL "https://files.catbox.moe/nhjpfi.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/72pmoq.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/88qe3z.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/swk55n.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/1x7sk6.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/6epvik.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/m198vm.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/li75io.jpg"
 
 
 def time_to_seconds(time):
