@@ -52,8 +52,8 @@ async def get_userinfo_img(
 
 # --------------------------------------------------------------------------------- #
 
-bg_path = "BrandrdXMusic/assets/userinfo.png"
-font_path = "BrandrdXMusic/assets/hiroko.ttf"
+bg_path = "KaalXMusic/assets/userinfo.png"
+font_path = "KaalXMusic/assets/hiroko.ttf"
 
 # --------------------------------------------------------------------------------- #
 
